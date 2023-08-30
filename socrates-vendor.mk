@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/socrates
 
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/socrates/proprietary/odm/bin/hw/android.hardware.biometrics.face-aidl-service:$(TARGET_COPY_OUT_ODM)/bin/hw/android.hardware.biometrics.face-aidl-service \
     vendor/xiaomi/socrates/proprietary/odm/bin/hw/vendor.nxp.hardware.nfc@2.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.nxp.hardware.nfc@2.0-service \
     vendor/xiaomi/socrates/proprietary/odm/bin/hw/vendor.xiaomi.hw.touchfeature@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.xiaomi.hw.touchfeature@1.0-service \
     vendor/xiaomi/socrates/proprietary/odm/bin/hw/vendor.xiaomi.sensor.citsensorservice@2.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.xiaomi.sensor.citsensorservice@2.0-service \
@@ -157,6 +158,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/socrates/proprietary/odm/etc/display/qdcm_calib_data_xiaomi_42_02_0a_cmd_mode_dsc_dsi_panel.json:$(TARGET_COPY_OUT_ODM)/etc/display/qdcm_calib_data_xiaomi_42_02_0a_cmd_mode_dsc_dsi_panel.json \
     vendor/xiaomi/socrates/proprietary/odm/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_ODM)/etc/dolby/dax-default.xml \
     vendor/xiaomi/socrates/proprietary/odm/etc/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/etc/dolby_vision.cfg \
+    vendor/xiaomi/socrates/proprietary/odm/etc/init/android.hardware.biometrics.face-aidl-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.biometrics.face-aidl-service.rc \
     vendor/xiaomi/socrates/proprietary/odm/etc/init.panel_info.sh:$(TARGET_COPY_OUT_ODM)/etc/init.panel_info.sh \
     vendor/xiaomi/socrates/proprietary/odm/etc/init/init.cirrus.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.cirrus.rc \
     vendor/xiaomi/socrates/proprietary/odm/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc \

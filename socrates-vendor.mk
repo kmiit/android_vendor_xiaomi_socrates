@@ -612,6 +612,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/socrates/proprietary/odm/lib64/libalAILDC.so:$(TARGET_COPY_OUT_ODM)/lib64/libalAILDC.so \
     vendor/xiaomi/socrates/proprietary/odm/lib64/libalCFR.so:$(TARGET_COPY_OUT_ODM)/lib64/libalCFR.so \
     vendor/xiaomi/socrates/proprietary/odm/lib64/libalLDC.so:$(TARGET_COPY_OUT_ODM)/lib64/libalLDC.so \
+    vendor/xiaomi/socrates/proprietary/odm/lib64/libanc_supervq.so:$(TARGET_COPY_OUT_ODM)/lib64/libanc_supervq.so \
     vendor/xiaomi/socrates/proprietary/odm/lib64/libarc_sat.so:$(TARGET_COPY_OUT_ODM)/lib64/libarc_sat.so \
     vendor/xiaomi/socrates/proprietary/odm/lib64/libarc_translate.so:$(TARGET_COPY_OUT_ODM)/lib64/libarc_translate.so \
     vendor/xiaomi/socrates/proprietary/odm/lib64/libarccali_data.so:$(TARGET_COPY_OUT_ODM)/lib64/libarccali_data.so \
@@ -934,6 +935,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/socrates/proprietary/vendor/bin/mbnota:$(TARGET_COPY_OUT_VENDOR)/bin/mbnota \
     vendor/xiaomi/socrates/proprietary/vendor/bin/mcs_test:$(TARGET_COPY_OUT_VENDOR)/bin/mcs_test \
     vendor/xiaomi/socrates/proprietary/vendor/bin/mec:$(TARGET_COPY_OUT_VENDOR)/bin/mec \
+    vendor/xiaomi/socrates/proprietary/vendor/bin/mi_thermald:$(TARGET_COPY_OUT_VENDOR)/bin/mi_thermald \
     vendor/xiaomi/socrates/proprietary/vendor/bin/minetd:$(TARGET_COPY_OUT_VENDOR)/bin/minetd \
     vendor/xiaomi/socrates/proprietary/vendor/bin/minidump64:$(TARGET_COPY_OUT_VENDOR)/bin/minidump64 \
     vendor/xiaomi/socrates/proprietary/vendor/bin/miwild:$(TARGET_COPY_OUT_VENDOR)/bin/miwild \
@@ -3748,6 +3750,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/socrates/proprietary/vendor/lib64/vendor.xiaomi.sensor.citsensorservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.sensor.citsensorservice@1.1.so \
     vendor/xiaomi/socrates/proprietary/vendor/lib64/vendor.xiaomi.sensor.citsensorservice@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.sensor.citsensorservice@2.0.so \
     vendor/xiaomi/socrates/proprietary/vendor/lib64/vendor.xiaomi.sensor.communicate@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.sensor.communicate@1.0.so
+
 PRODUCT_PACKAGES += \
     libagm \
     libar-gsl \

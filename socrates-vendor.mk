@@ -36,7 +36,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/socrates/proprietary/odm/etc/audio_policy_engine_stream_volumes.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_policy_engine_stream_volumes.xml \
     vendor/xiaomi/socrates/proprietary/odm/etc/backend_conf.xml:$(TARGET_COPY_OUT_ODM)/etc/backend_conf.xml \
     vendor/xiaomi/socrates/proprietary/odm/etc/camera/CFR_para_UW_V01.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/CFR_para_UW_V01.bin \
+    vendor/xiaomi/socrates/proprietary/odm/etc/camera/CFR_para_UW_V01_HD.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/CFR_para_UW_V01_HD.bin \
+    vendor/xiaomi/socrates/proprietary/odm/etc/camera/CFR_para_UW_V01_HDR.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/CFR_para_UW_V01_HDR.bin \
+    vendor/xiaomi/socrates/proprietary/odm/etc/camera/CFR_para_UW_V01_SN.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/CFR_para_UW_V01_SN.bin \
     vendor/xiaomi/socrates/proprietary/odm/etc/camera/MobNetv2TF_0.35_iter200000_zoom2.5x_h1500w2000.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/MobNetv2TF_0.35_iter200000_zoom2.5x_h1500w2000.dlc \
+    vendor/xiaomi/socrates/proprietary/odm/etc/camera/altekldc_packdata_0x01.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/altekldc_packdata_0x01.bin \
+    vendor/xiaomi/socrates/proprietary/odm/etc/camera/altekldc_segmodel.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/altekldc_segmodel.bin \
+    vendor/xiaomi/socrates/proprietary/odm/etc/camera/altekldc_tuningdata.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/altekldc_tuningdata.bin \
+    vendor/xiaomi/socrates/proprietary/odm/etc/camera/altekldc_tuningdata_ai.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/altekldc_tuningdata_ai.bin \
+    vendor/xiaomi/socrates/proprietary/odm/etc/camera/anc_1080p.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/anc_1080p.bin \
+    vendor/xiaomi/socrates/proprietary/odm/etc/camera/anc_4k.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/anc_4k.bin \
     vendor/xiaomi/socrates/proprietary/odm/etc/camera/arcsat_2sat.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/arcsat_2sat.bin \
     vendor/xiaomi/socrates/proprietary/odm/etc/camera/arcsoft_dynamicEV_config.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/arcsoft_dynamicEV_config.ini \
     vendor/xiaomi/socrates/proprietary/odm/etc/camera/beauty_config_cn.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty_config_cn.json \
@@ -49,6 +58,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/socrates/proprietary/odm/etc/camera/deblur_txt_dsp.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/deblur_txt_dsp.dlc \
     vendor/xiaomi/socrates/proprietary/odm/etc/camera/deblur_txt_gpu.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/deblur_txt_gpu.dlc \
     vendor/xiaomi/socrates/proprietary/odm/etc/camera/denoise_qat.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/denoise_qat.dlc \
+    vendor/xiaomi/socrates/proprietary/odm/etc/camera/dlengine.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/dlengine.dlc \
     vendor/xiaomi/socrates/proprietary/odm/etc/camera/dualcam_bokeh_params_pro_front.json:$(TARGET_COPY_OUT_ODM)/etc/camera/dualcam_bokeh_params_pro_front.json \
     vendor/xiaomi/socrates/proprietary/odm/etc/camera/eisoverridesettings.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/eisoverridesettings.txt \
     vendor/xiaomi/socrates/proprietary/odm/etc/camera/enhance_motiontuning.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/enhance_motiontuning.xml \
@@ -59,6 +69,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/socrates/proprietary/odm/etc/camera/his_preview_wide.yaml:$(TARGET_COPY_OUT_ODM)/etc/camera/his_preview_wide.yaml \
     vendor/xiaomi/socrates/proprietary/odm/etc/camera/his_video_wide.yaml:$(TARGET_COPY_OUT_ODM)/etc/camera/his_video_wide.yaml \
     vendor/xiaomi/socrates/proprietary/odm/etc/camera/mage_yuv_hdr_opencl.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/mage_yuv_hdr_opencl.bin \
+    vendor/xiaomi/socrates/proprietary/odm/etc/camera/mi_tuning/default.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/mi_tuning/default.bin \
+    vendor/xiaomi/socrates/proprietary/odm/etc/camera/mi_tuning/socrates_semco_imx800_wide.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/mi_tuning/socrates_semco_imx800_wide.bin \
     vendor/xiaomi/socrates/proprietary/odm/etc/camera/miai_hdr_config.yaml:$(TARGET_COPY_OUT_ODM)/etc/camera/miai_hdr_config.yaml \
     vendor/xiaomi/socrates/proprietary/odm/etc/camera/miai_psn_config.yaml:$(TARGET_COPY_OUT_ODM)/etc/camera/miai_psn_config.yaml \
     vendor/xiaomi/socrates/proprietary/odm/etc/camera/mialgo_nn_xmi_slmt_4x_1080p.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/mialgo_nn_xmi_slmt_4x_1080p.bin \
@@ -82,6 +94,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/socrates/proprietary/odm/etc/camera/sky_segmentation_qat.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/sky_segmentation_qat.dlc \
     vendor/xiaomi/socrates/proprietary/odm/etc/camera/snsc.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/snsc.bin \
     vendor/xiaomi/socrates/proprietary/odm/etc/camera/snsc_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/snsc_params.json \
+    vendor/xiaomi/socrates/proprietary/odm/etc/camera/svq_cache:$(TARGET_COPY_OUT_ODM)/etc/camera/svq_cache \
     vendor/xiaomi/socrates/proprietary/odm/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_ODM)/etc/camera/vidhance_calibration \
     vendor/xiaomi/socrates/proprietary/odm/etc/camera/xiaomi/EcoCloudInfo.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/EcoCloudInfo.json \
     vendor/xiaomi/socrates/proprietary/odm/etc/camera/xiaomi/dualbokehjpegsnapshot.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/dualbokehjpegsnapshot.json \
@@ -1226,6 +1239,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/socrates/proprietary/vendor/etc/camera/resources/render/Effect/20_FaceRetouch/Effects/1_SkinSmoothNative/effect_capture.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/resources/render/Effect/20_FaceRetouch/Effects/1_SkinSmoothNative/effect_capture.json \
     vendor/xiaomi/socrates/proprietary/vendor/etc/camera/resources/render/Effect/20_FaceRetouch/Effects/1_SkinSmoothNative/effect_preview.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/resources/render/Effect/20_FaceRetouch/Effects/1_SkinSmoothNative/effect_preview.json \
     vendor/xiaomi/socrates/proprietary/vendor/etc/camera/resources/render/Effect/20_FaceRetouch/Effects/2_SkinSmoothRear/FaceMask.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/resources/render/Effect/20_FaceRetouch/Effects/2_SkinSmoothRear/FaceMask.bin \
+    vendor/xiaomi/socrates/proprietary/vendor/etc/camera/resources/render/Effect/20_FaceRetouch/Effects/2_SkinSmoothRear/effect.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/resources/render/Effect/20_FaceRetouch/Effects/2_SkinSmoothRear/effect.json \
     vendor/xiaomi/socrates/proprietary/vendor/etc/camera/resources/render/Effect/20_FaceRetouch/Effects/4_Hessian/FaceMask.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/resources/render/Effect/20_FaceRetouch/Effects/4_Hessian/FaceMask.bin \
     vendor/xiaomi/socrates/proprietary/vendor/etc/camera/resources/render/Effect/20_FaceRetouch/Effects/4_Hessian/effect.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/resources/render/Effect/20_FaceRetouch/Effects/4_Hessian/effect.json \
     vendor/xiaomi/socrates/proprietary/vendor/etc/camera/resources/render/Effect/20_FaceRetouch/mode_classical.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/resources/render/Effect/20_FaceRetouch/mode_classical.json \
@@ -1813,7 +1827,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/socrates/proprietary/vendor/etc/sensor_diag.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/sensor_diag.cfg \
     vendor/xiaomi/socrates/proprietary/vendor/etc/sensors/config/kailua_qsh_ble_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_qsh_ble_0.json \
     vendor/xiaomi/socrates/proprietary/vendor/etc/sensors/config/qsh_ble.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/qsh_ble.json \
-    vendor/xiaomi/socrates/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/xiaomi/socrates/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
     vendor/xiaomi/socrates/proprietary/vendor/etc/sla/slad.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sla/slad.conf \
     vendor/xiaomi/socrates/proprietary/vendor/etc/smomo_setting.xml:$(TARGET_COPY_OUT_VENDOR)/etc/smomo_setting.xml \

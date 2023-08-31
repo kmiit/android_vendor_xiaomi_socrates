@@ -158,8 +158,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/socrates/proprietary/odm/etc/display/qdcm_calib_data_xiaomi_42_02_0a_cmd_mode_dsc_dsi_panel.json:$(TARGET_COPY_OUT_ODM)/etc/display/qdcm_calib_data_xiaomi_42_02_0a_cmd_mode_dsc_dsi_panel.json \
     vendor/xiaomi/socrates/proprietary/odm/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_ODM)/etc/dolby/dax-default.xml \
     vendor/xiaomi/socrates/proprietary/odm/etc/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/etc/dolby_vision.cfg \
-    vendor/xiaomi/socrates/proprietary/odm/etc/init/android.hardware.biometrics.face-aidl-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.biometrics.face-aidl-service.rc \
     vendor/xiaomi/socrates/proprietary/odm/etc/init.panel_info.sh:$(TARGET_COPY_OUT_ODM)/etc/init.panel_info.sh \
+    vendor/xiaomi/socrates/proprietary/odm/etc/init/android.hardware.biometrics.face-aidl-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.biometrics.face-aidl-service.rc \
     vendor/xiaomi/socrates/proprietary/odm/etc/init/init.cirrus.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.cirrus.rc \
     vendor/xiaomi/socrates/proprietary/odm/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc \
     vendor/xiaomi/socrates/proprietary/odm/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-service.rc \
@@ -728,6 +728,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/socrates/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
     vendor/xiaomi/socrates/proprietary/system/etc/audio_effects.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_effects.conf \
     vendor/xiaomi/socrates/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
+    vendor/xiaomi/socrates/proprietary/system/lib/android.hardware.secure_element@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.secure_element@1.0.so \
+    vendor/xiaomi/socrates/proprietary/system/lib64/android.hardware.secure_element@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.secure_element@1.0.so \
     vendor/xiaomi/socrates/proprietary/vendor/lib64/vendor.xiaomi.hardware.campostproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.campostproc@1.0.so \
     vendor/xiaomi/socrates/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/xiaomi/socrates/proprietary/system_ext/bin/tcmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/tcmd \
@@ -921,7 +923,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/socrates/proprietary/vendor/bin/hw/vendor.qti.media.c2audio@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.media.c2audio@1.0-service \
     vendor/xiaomi/socrates/proprietary/vendor/bin/hw/vendor.qti.memory.pasrmanager@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.memory.pasrmanager@1.0-service \
     vendor/xiaomi/socrates/proprietary/vendor/bin/hw/vendor.qti.psiclient@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.psiclient@1.0-service \
-    vendor/xiaomi/socrates/proprietary/vendor/bin/hw/vendor.qti.secure_element@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.secure_element@1.2-service \
     vendor/xiaomi/socrates/proprietary/vendor/bin/hw/vendor.qti.sla.service@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.sla.service@1.0-service \
     vendor/xiaomi/socrates/proprietary/vendor/bin/hw/vendor.rongcard.hardware.eid@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.rongcard.hardware.eid@1.0-service \
     vendor/xiaomi/socrates/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.displayfeature@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.displayfeature@1.0-service \
@@ -1661,7 +1662,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/socrates/proprietary/vendor/etc/init/vendor.qti.psiclient@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.psiclient@1.0-service.rc \
     vendor/xiaomi/socrates/proprietary/vendor/etc/init/vendor.qti.qspmhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.qspmhal@1.0-service.rc \
     vendor/xiaomi/socrates/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
-    vendor/xiaomi/socrates/proprietary/vendor/etc/init/vendor.qti.secure_element@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.secure_element@1.2-service.rc \
     vendor/xiaomi/socrates/proprietary/vendor/etc/init/vendor.qti.sla.service@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.sla.service@1.0-service.rc \
     vendor/xiaomi/socrates/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
     vendor/xiaomi/socrates/proprietary/vendor/etc/init/vendor.rongcard.hardware.eid@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.rongcard.hardware.eid@1.0-service.rc \
@@ -1912,7 +1912,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/socrates/proprietary/vendor/gpu/kbc/unified_kbcs_64.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_64.bin \
     vendor/xiaomi/socrates/proprietary/vendor/gpu/kbc/unified_ksqs.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_ksqs.bin \
     vendor/xiaomi/socrates/proprietary/vendor/lib/android.hardware.authsecret@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.authsecret@1.0.so \
-    vendor/xiaomi/socrates/proprietary/vendor/lib/android.hardware.secure_element@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.secure_element@1.0-impl.so \
     vendor/xiaomi/socrates/proprietary/vendor/lib/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/btaudio_offload_if.so \
     vendor/xiaomi/socrates/proprietary/vendor/lib/camx.device-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camx.device-impl.so \
     vendor/xiaomi/socrates/proprietary/vendor/lib/camx.provider-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camx.provider-impl.so \
@@ -2750,7 +2749,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/socrates/proprietary/vendor/lib/vndk/libstagefright_foundation.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libstagefright_foundation.so \
     vendor/xiaomi/socrates/proprietary/vendor/lib/vndk/libstagefright_omx.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libstagefright_omx.so \
     vendor/xiaomi/socrates/proprietary/vendor/lib64/android.hardware.authsecret@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.authsecret@1.0.so \
-    vendor/xiaomi/socrates/proprietary/vendor/lib64/android.hardware.secure_element@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.secure_element@1.0-impl.so \
+    vendor/xiaomi/socrates/proprietary/vendor/lib64/android.hardware.biometrics.face-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.biometrics.face-V2-ndk.so \
     vendor/xiaomi/socrates/proprietary/vendor/lib64/android.hardware.security.keymint-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.security.keymint-V1-ndk.so \
     vendor/xiaomi/socrates/proprietary/vendor/lib64/android.system.keystore2-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.system.keystore2-V1-ndk.so \
     vendor/xiaomi/socrates/proprietary/vendor/lib64/android.system.net.netd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.system.net.netd@1.0.so \
@@ -3874,6 +3873,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsuce-V1.0-java \
     vendor.qti.ims.rcsuce-V1.1-java \
     vendor.qti.ims.rcsuce-V1.2-java \
+    secure_element-service \
     android.hardware.cas@1.2-service \
     android.hardware.gnss-aidl-service-qti \
     android.hardware.graphics.mapper-impl-qti-display \

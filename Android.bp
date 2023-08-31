@@ -530,6 +530,14 @@ dex_import {
 }
 
 prebuilt_etc_xml {
+	name: "secure_element-service",
+	owner: "xiaomi",
+	src: "proprietary/system/etc/vintf/manifest/secure_element-service.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+}
+
+prebuilt_etc_xml {
 	name: "android.hardware.cas@1.2-service",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.cas@1.2-service.xml",

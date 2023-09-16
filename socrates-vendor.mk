@@ -523,10 +523,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/socrates/proprietary/odm/lib/libmiXmlParser.so:$(TARGET_COPY_OUT_ODM)/lib/libmiXmlParser.so \
     vendor/xiaomi/socrates/proprietary/odm/lib/libmi_dspp.so:$(TARGET_COPY_OUT_ODM)/lib/libmi_dspp.so \
     vendor/xiaomi/socrates/proprietary/odm/lib/libmialgo_utils.so:$(TARGET_COPY_OUT_ODM)/lib/libmialgo_utils.so \
-    vendor/xiaomi/socrates/proprietary/odm/lib/libmiface.so:$(TARGET_COPY_OUT_ODM)/lib/libmiface.so \
-    vendor/xiaomi/socrates/proprietary/odm/lib/libmituning_datacenter.so:$(TARGET_COPY_OUT_ODM)/lib/libmituning_datacenter.so \
-    vendor/xiaomi/socrates/proprietary/odm/lib/libmituning_datacenter_base.so:$(TARGET_COPY_OUT_ODM)/lib/libmituning_datacenter_base.so \
-    vendor/xiaomi/socrates/proprietary/odm/lib/libmituning_utils.so:$(TARGET_COPY_OUT_ODM)/lib/libmituning_utils.so \
     vendor/xiaomi/socrates/proprietary/odm/lib/libmlipay.so:$(TARGET_COPY_OUT_ODM)/lib/libmlipay.so \
     vendor/xiaomi/socrates/proprietary/odm/lib/libmlipay@1.1.so:$(TARGET_COPY_OUT_ODM)/lib/libmlipay@1.1.so \
     vendor/xiaomi/socrates/proprietary/odm/lib/libmt.so:$(TARGET_COPY_OUT_ODM)/lib/libmt.so \
@@ -646,6 +642,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/socrates/proprietary/odm/lib64/libclient2slpi.notifier.so:$(TARGET_COPY_OUT_ODM)/lib64/libclient2slpi.notifier.so \
     vendor/xiaomi/socrates/proprietary/odm/lib64/libcolortempmode.so:$(TARGET_COPY_OUT_ODM)/lib64/libcolortempmode.so \
     vendor/xiaomi/socrates/proprietary/odm/lib64/libcrussp.so:$(TARGET_COPY_OUT_ODM)/lib64/libcrussp.so \
+    vendor/xiaomi/socrates/proprietary/odm/lib64/libdeflickerNM.so:$(TARGET_COPY_OUT_ODM)/lib64/libdeflickerNM.so \
     vendor/xiaomi/socrates/proprietary/odm/lib64/libdisplaycount.so:$(TARGET_COPY_OUT_ODM)/lib64/libdisplaycount.so \
     vendor/xiaomi/socrates/proprietary/odm/lib64/libdither.so:$(TARGET_COPY_OUT_ODM)/lib64/libdither.so \
     vendor/xiaomi/socrates/proprietary/odm/lib64/libdualcam_optical_zoom_control.so:$(TARGET_COPY_OUT_ODM)/lib64/libdualcam_optical_zoom_control.so \
@@ -667,8 +664,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/socrates/proprietary/odm/lib64/libmialgo_rfs.so:$(TARGET_COPY_OUT_ODM)/lib64/libmialgo_rfs.so \
     vendor/xiaomi/socrates/proprietary/odm/lib64/libmialgo_snsc.so:$(TARGET_COPY_OUT_ODM)/lib64/libmialgo_snsc.so \
     vendor/xiaomi/socrates/proprietary/odm/lib64/libmialgo_utils.so:$(TARGET_COPY_OUT_ODM)/lib64/libmialgo_utils.so \
+    vendor/xiaomi/socrates/proprietary/odm/lib64/libmiface.so:$(TARGET_COPY_OUT_ODM)/lib64/libmiface.so \
     vendor/xiaomi/socrates/proprietary/odm/lib64/libmiphone_capture_bokeh_front.so:$(TARGET_COPY_OUT_ODM)/lib64/libmiphone_capture_bokeh_front.so \
     vendor/xiaomi/socrates/proprietary/odm/lib64/libmiphone_preview_bokeh_mono.so:$(TARGET_COPY_OUT_ODM)/lib64/libmiphone_preview_bokeh_mono.so \
+    vendor/xiaomi/socrates/proprietary/odm/lib64/libmituning_datacenter.so:$(TARGET_COPY_OUT_ODM)/lib64/libmituning_datacenter.so \
+    vendor/xiaomi/socrates/proprietary/odm/lib64/libmituning_datacenter_base.so:$(TARGET_COPY_OUT_ODM)/lib64/libmituning_datacenter_base.so \
+    vendor/xiaomi/socrates/proprietary/odm/lib64/libmituning_utils.so:$(TARGET_COPY_OUT_ODM)/lib64/libmituning_utils.so \
     vendor/xiaomi/socrates/proprietary/odm/lib64/libmlipay.so:$(TARGET_COPY_OUT_ODM)/lib64/libmlipay.so \
     vendor/xiaomi/socrates/proprietary/odm/lib64/libmlipay@1.1.so:$(TARGET_COPY_OUT_ODM)/lib64/libmlipay@1.1.so \
     vendor/xiaomi/socrates/proprietary/odm/lib64/libmpbase.so:$(TARGET_COPY_OUT_ODM)/lib64/libmpbase.so \

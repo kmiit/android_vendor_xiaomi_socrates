@@ -25,15 +25,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/socrates/proprietary/odm/etc/audio/misound_res_headphone.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/misound_res_headphone.bin \
     vendor/xiaomi/socrates/proprietary/odm/etc/audio/misound_res_spk.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/misound_res_spk.bin \
     vendor/xiaomi/socrates/proprietary/odm/etc/audio/misound_res_spk4ch.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/misound_res_spk4ch.bin \
-    vendor/xiaomi/socrates/proprietary/odm/etc/audio/sku_kalama/mixer_paths_kalama_mtp.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_kalama/mixer_paths_kalama_mtp.xml \
-    vendor/xiaomi/socrates/proprietary/odm/etc/audio/sku_kalama/mixer_paths_overlay_dynamic.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_kalama/mixer_paths_overlay_dynamic.xml \
-    vendor/xiaomi/socrates/proprietary/odm/etc/audio/sku_kalama/mixer_paths_overlay_static.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_kalama/mixer_paths_overlay_static.xml \
-    vendor/xiaomi/socrates/proprietary/odm/etc/audio/sku_kalama/resourcemanager_kalama_mtp.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_kalama/resourcemanager_kalama_mtp.xml \
     vendor/xiaomi/socrates/proprietary/odm/etc/audio_policy_engine_configuration_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_policy_engine_configuration_mi.xml \
     vendor/xiaomi/socrates/proprietary/odm/etc/audio_policy_engine_default_stream_volumes.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_policy_engine_default_stream_volumes.xml \
     vendor/xiaomi/socrates/proprietary/odm/etc/audio_policy_engine_product_strategies.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_policy_engine_product_strategies.xml \
     vendor/xiaomi/socrates/proprietary/odm/etc/audio_policy_engine_stream_volumes.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_policy_engine_stream_volumes.xml \
-    vendor/xiaomi/socrates/proprietary/odm/etc/backend_conf.xml:$(TARGET_COPY_OUT_ODM)/etc/backend_conf.xml \
     vendor/xiaomi/socrates/proprietary/odm/etc/camera/CFR_para_UW_V01.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/CFR_para_UW_V01.bin \
     vendor/xiaomi/socrates/proprietary/odm/etc/camera/CFR_para_UW_V01_HD.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/CFR_para_UW_V01_HD.bin \
     vendor/xiaomi/socrates/proprietary/odm/etc/camera/CFR_para_UW_V01_HDR.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/CFR_para_UW_V01_HDR.bin \
@@ -1038,20 +1033,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/socrates/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd \
     vendor/xiaomi/socrates/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_2.10_enpuv3.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_2.10_enpuv3.pmd \
     vendor/xiaomi/socrates/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
-    vendor/xiaomi/socrates/proprietary/vendor/etc/audio/sku_kalama/adsp_sleep_monitor.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/adsp_sleep_monitor.conf \
-    vendor/xiaomi/socrates/proprietary/vendor/etc/audio/sku_kalama/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/audio_effects.conf \
-    vendor/xiaomi/socrates/proprietary/vendor/etc/audio/sku_kalama/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/audio_effects.xml \
-    vendor/xiaomi/socrates/proprietary/vendor/etc/audio/sku_kalama/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/audio_policy_configuration.xml \
-    vendor/xiaomi/socrates/proprietary/vendor/etc/audio/sku_kalama/mixer_paths_kalama_cdp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/mixer_paths_kalama_cdp.xml \
-    vendor/xiaomi/socrates/proprietary/vendor/etc/audio/sku_kalama/mixer_paths_kalama_cdp_wsa883x.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/mixer_paths_kalama_cdp_wsa883x.xml \
-    vendor/xiaomi/socrates/proprietary/vendor/etc/audio/sku_kalama/mixer_paths_kalama_grd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/mixer_paths_kalama_grd.xml \
-    vendor/xiaomi/socrates/proprietary/vendor/etc/audio/sku_kalama/mixer_paths_kalama_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/mixer_paths_kalama_mtp.xml \
-    vendor/xiaomi/socrates/proprietary/vendor/etc/audio/sku_kalama/mixer_paths_kalama_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/mixer_paths_kalama_qrd.xml \
-    vendor/xiaomi/socrates/proprietary/vendor/etc/audio/sku_kalama/resourcemanager_kalama_cdp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/resourcemanager_kalama_cdp.xml \
-    vendor/xiaomi/socrates/proprietary/vendor/etc/audio/sku_kalama/resourcemanager_kalama_grd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/resourcemanager_kalama_grd.xml \
-    vendor/xiaomi/socrates/proprietary/vendor/etc/audio/sku_kalama/resourcemanager_kalama_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/resourcemanager_kalama_mtp.xml \
-    vendor/xiaomi/socrates/proprietary/vendor/etc/audio/sku_kalama/resourcemanager_kalama_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/resourcemanager_kalama_qrd.xml \
-    vendor/xiaomi/socrates/proprietary/vendor/etc/audio/sku_kalama_qssi/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama_qssi/audio_policy_configuration.xml \
     vendor/xiaomi/socrates/proprietary/vendor/etc/audio_cloud_control_white_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_cloud_control_white_list.xml \
     vendor/xiaomi/socrates/proprietary/vendor/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
     vendor/xiaomi/socrates/proprietary/vendor/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
@@ -1417,7 +1398,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/socrates/proprietary/vendor/etc/camera/resources/render/glsl/binShaders64/shader_YUV2YUVUtils_SWAP_UV.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/resources/render/glsl/binShaders64/shader_YUV2YUVUtils_SWAP_UV.bin \
     vendor/xiaomi/socrates/proprietary/vendor/etc/camera/resources/truesight_param.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/resources/truesight_param.json \
     vendor/xiaomi/socrates/proprietary/vendor/etc/camera/resources/truesight_param_debug.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/resources/truesight_param_debug.json \
-    vendor/xiaomi/socrates/proprietary/vendor/etc/card-defs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/card-defs.xml \
     vendor/xiaomi/socrates/proprietary/vendor/etc/charger_diag.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/charger_diag.cfg \
     vendor/xiaomi/socrates/proprietary/vendor/etc/charger_fw_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fw_fstab.qti \
     vendor/xiaomi/socrates/proprietary/vendor/etc/clstc_config_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/clstc_config_library.xml \
@@ -1624,7 +1604,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/socrates/proprietary/vendor/etc/media_profiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles.xml \
     vendor/xiaomi/socrates/proprietary/vendor/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
     vendor/xiaomi/socrates/proprietary/vendor/etc/media_profiles_kalama.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_kalama.xml \
-    vendor/xiaomi/socrates/proprietary/vendor/etc/microphone_characteristics.xml:$(TARGET_COPY_OUT_VENDOR)/etc/microphone_characteristics.xml \
     vendor/xiaomi/socrates/proprietary/vendor/etc/misound_asc_model.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/misound_asc_model.tflite \
     vendor/xiaomi/socrates/proprietary/vendor/etc/misound_res_spk.bin:$(TARGET_COPY_OUT_VENDOR)/etc/misound_res_spk.bin \
     vendor/xiaomi/socrates/proprietary/vendor/etc/models/acd/event.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/event.eai \
@@ -1752,7 +1731,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/socrates/proprietary/vendor/etc/thermald-devices.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermald-devices.conf \
     vendor/xiaomi/socrates/proprietary/vendor/etc/tzlog.dict:$(TARGET_COPY_OUT_VENDOR)/etc/tzlog.dict \
     vendor/xiaomi/socrates/proprietary/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
-    vendor/xiaomi/socrates/proprietary/vendor/etc/usecaseKvManager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usecaseKvManager.xml \
     vendor/xiaomi/socrates/proprietary/vendor/etc/vmmgr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/vmmgr.conf \
     vendor/xiaomi/socrates/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
     vendor/xiaomi/socrates/proprietary/vendor/etc/wifi/icm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/icm.conf \
@@ -2431,6 +2409,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/socrates/proprietary/vendor/lib/vendor.qti.esepowermanager@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.esepowermanager@1.1.so \
     vendor/xiaomi/socrates/proprietary/vendor/lib/vendor.qti.gnss-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss-V2-ndk.so \
     vendor/xiaomi/socrates/proprietary/vendor/lib/vendor.qti.gnss-service.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss-service.so \
+    vendor/xiaomi/socrates/proprietary/vendor/lib/vendor.qti.hardware.AGMIPC@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.AGMIPC@1.0.so \
     vendor/xiaomi/socrates/proprietary/vendor/lib/vendor.qti.hardware.ListenSoundModel@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.ListenSoundModel@1.0-impl.so \
     vendor/xiaomi/socrates/proprietary/vendor/lib/vendor.qti.hardware.ListenSoundModel@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.ListenSoundModel@1.0.so \
     vendor/xiaomi/socrates/proprietary/vendor/lib/vendor.qti.hardware.alarm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.alarm@1.0.so \
@@ -2736,6 +2715,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/socrates/proprietary/vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so \
     vendor/xiaomi/socrates/proprietary/vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so \
     vendor/xiaomi/socrates/proprietary/vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so \
+    vendor/xiaomi/socrates/proprietary/vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so \
+    vendor/xiaomi/socrates/proprietary/vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so \
     vendor/xiaomi/socrates/proprietary/vendor/lib64/hw/vendor.qti.hardware.bttpi-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.bttpi-impl.so \
     vendor/xiaomi/socrates/proprietary/vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so \
     vendor/xiaomi/socrates/proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so \
@@ -3621,15 +3602,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/socrates/proprietary/vendor/lib64/vendor.xiaomi.sensor.communicate@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.sensor.communicate@1.0.so
 
 PRODUCT_PACKAGES += \
+    libagm \
     libar-gsl \
     libar-pal \
     libats \
     liblx-osal \
     libthermalclient \
-    vendor.qti.hardware.pal@1.0-impl \
-    libagm \
-    liblmthermallistner \
     vendor.qti.hardware.AGMIPC@1.0-impl \
+    vendor.qti.hardware.pal@1.0-impl \
+    liblmthermallistner \
     CACertService \
     CneApp \
     EidService \

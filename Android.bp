@@ -293,20 +293,20 @@ android_app_import {
 }
 
 android_app_import {
-	name: "ImsRcsService",
+	name: "uimlpaservice",
 	owner: "xiaomi",
-	apk: "proprietary/system_ext/app/ImsRcsService/ImsRcsService.apk",
+	apk: "proprietary/product/app/uimlpaservice/uimlpaservice.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
-	system_ext_specific: true,
+	product_specific: true,
 }
 
 android_app_import {
-	name: "QtiTelephony",
+	name: "ImsRcsService",
 	owner: "xiaomi",
-	apk: "proprietary/system_ext/app/QtiTelephony/QtiTelephony.apk",
+	apk: "proprietary/system_ext/app/ImsRcsService/ImsRcsService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -350,18 +350,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "ims",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/priv-app/ims/ims.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
 	name: "qcrilmsgtunnel",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
@@ -394,27 +382,6 @@ dex_import {
 }
 
 dex_import {
-	name: "uimremoteclientlibrary",
-	owner: "xiaomi",
-	jars: ["proprietary/product/framework/uimremoteclientlibrary.jar"],
-	product_specific: true,
-}
-
-dex_import {
-	name: "uimremoteserverlibrary",
-	owner: "xiaomi",
-	jars: ["proprietary/product/framework/uimremoteserverlibrary.jar"],
-	product_specific: true,
-}
-
-dex_import {
-	name: "uimremotesimlocklibrary",
-	owner: "xiaomi",
-	jars: ["proprietary/product/framework/uimremotesimlocklibrary.jar"],
-	product_specific: true,
-}
-
-dex_import {
 	name: "uimservicelibrary",
 	owner: "xiaomi",
 	jars: ["proprietary/product/framework/uimservicelibrary.jar"],
@@ -443,13 +410,6 @@ dex_import {
 }
 
 dex_import {
-	name: "qti-telephony-common",
-	owner: "xiaomi",
-	jars: ["proprietary/system_ext/framework/qti-telephony-common.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
 	name: "vendor.qti.hardware.alarm-V1.0-java",
 	owner: "xiaomi",
 	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar"],
@@ -457,51 +417,9 @@ dex_import {
 }
 
 dex_import {
-	name: "vendor.qti.ims.callcapability-V1.0-java",
-	owner: "xiaomi",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.callcapability-V1.0-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.callinfo-V1.0-java",
-	owner: "xiaomi",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.callinfo-V1.0-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.configservice-V1.0-java",
-	owner: "xiaomi",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.configservice-V1.0-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.configservice-V1.1-java",
-	owner: "xiaomi",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.configservice-V1.1-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
 	name: "vendor.qti.ims.connection-V1.0-java",
 	owner: "xiaomi",
 	jars: ["proprietary/system_ext/framework/vendor.qti.ims.connection-V1.0-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.factory-V1.0-java",
-	owner: "xiaomi",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.factory-V1.0-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.factory-V1.1-java",
-	owner: "xiaomi",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.factory-V1.1-java.jar"],
 	system_ext_specific: true,
 }
 
@@ -523,34 +441,6 @@ dex_import {
 	name: "vendor.qti.ims.factory-V2.2-java",
 	owner: "xiaomi",
 	jars: ["proprietary/system_ext/framework/vendor.qti.ims.factory-V2.2-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.rcsconfig-V1.0-java",
-	owner: "xiaomi",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.rcsconfig-V1.1-java",
-	owner: "xiaomi",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsconfig-V1.1-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.rcsconfig-V2.0-java",
-	owner: "xiaomi",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsconfig-V2.0-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.rcsconfig-V2.1-java",
-	owner: "xiaomi",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsconfig-V2.1-java.jar"],
 	system_ext_specific: true,
 }
 

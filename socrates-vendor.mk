@@ -484,8 +484,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/socrates/proprietary/odm/firmware/goodix_firmware_m11_new.bin:$(TARGET_COPY_OUT_ODM)/firmware/goodix_firmware_m11_new.bin \
     vendor/xiaomi/socrates/proprietary/odm/firmware/goodix_normalize.csv:$(TARGET_COPY_OUT_ODM)/firmware/goodix_normalize.csv \
     vendor/xiaomi/socrates/proprietary/odm/firmware/goodix_normalize_1.csv:$(TARGET_COPY_OUT_ODM)/firmware/goodix_normalize_1.csv \
-    vendor/xiaomi/socrates/proprietary/odm/firmware/goodix_test_limits_1_255.csv:$(TARGET_COPY_OUT_ODM)/firmware/goodix_test_limits_1_255.csv \
-    vendor/xiaomi/socrates/proprietary/odm/firmware/goodix_test_limits_255.csv:$(TARGET_COPY_OUT_ODM)/firmware/goodix_test_limits_255.csv \
     vendor/xiaomi/socrates/proprietary/odm/firmware/vpu30_4v.mbn:$(TARGET_COPY_OUT_ODM)/firmware/vpu30_4v.mbn \
     vendor/xiaomi/socrates/proprietary/odm/lib/camera/com.qti.sensormodule.qti_tpg0.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.sensormodule.qti_tpg0.bin \
     vendor/xiaomi/socrates/proprietary/odm/lib/camera/com.qti.sensormodule.qti_tpg1.bin:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.sensormodule.qti_tpg1.bin \
@@ -826,10 +824,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/socrates/proprietary/vendor/bin/hdcp2p2prov:$(TARGET_COPY_OUT_VENDOR)/bin/hdcp2p2prov \
     vendor/xiaomi/socrates/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.1-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.1-service-qti \
     vendor/xiaomi/socrates/proprietary/vendor/bin/hw/android.hardware.drm-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm-service.widevine \
-    vendor/xiaomi/socrates/proprietary/vendor/bin/hw/android.hardware.dumpstate-service.xiaomi:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.dumpstate-service.xiaomi \
     vendor/xiaomi/socrates/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service-qti \
     vendor/xiaomi/socrates/proprietary/vendor/bin/hw/android.hardware.gnss-aidl-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss-aidl-service-qti \
-    vendor/xiaomi/socrates/proprietary/vendor/bin/hw/android.hardware.health-service.qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.health-service.qti \
     vendor/xiaomi/socrates/proprietary/vendor/bin/hw/android.hardware.identity-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.identity-service-qti \
     vendor/xiaomi/socrates/proprietary/vendor/bin/hw/android.hardware.ir-service.example:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.ir-service.example \
     vendor/xiaomi/socrates/proprietary/vendor/bin/hw/android.hardware.nfc@1.2-service-st:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.nfc@1.2-service-st \
@@ -1458,7 +1454,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/socrates/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc \
     vendor/xiaomi/socrates/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/xiaomi/socrates/proprietary/vendor/etc/init/android.hardware.gnss-aidl-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-aidl-service-qti.rc \
-    vendor/xiaomi/socrates/proprietary/vendor/etc/init/android.hardware.health-service.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health-service.qti.rc \
     vendor/xiaomi/socrates/proprietary/vendor/etc/init/android.hardware.identity-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.identity-service-qti.rc \
     vendor/xiaomi/socrates/proprietary/vendor/etc/init/android.hardware.ir-service.example.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.ir-service.example.rc \
     vendor/xiaomi/socrates/proprietary/vendor/etc/init/android.hardware.nfc@1.2-service-st.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.nfc@1.2-service-st.rc \
@@ -1472,7 +1467,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/socrates/proprietary/vendor/etc/init/ddr_training.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ddr_training.rc \
     vendor/xiaomi/socrates/proprietary/vendor/etc/init/dolbycodec2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dolbycodec2.rc \
     vendor/xiaomi/socrates/proprietary/vendor/etc/init/dpmQmiMgr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dpmQmiMgr.rc \
-    vendor/xiaomi/socrates/proprietary/vendor/etc/init/dumpstate-xiaomi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dumpstate-xiaomi.rc \
     vendor/xiaomi/socrates/proprietary/vendor/etc/init/ffu.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ffu.rc \
     vendor/xiaomi/socrates/proprietary/vendor/etc/init/hw/init.batterysecret.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.batterysecret.rc \
     vendor/xiaomi/socrates/proprietary/vendor/etc/init/hw/init.mi_thermald.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.mi_thermald.rc \
@@ -1490,10 +1484,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/socrates/proprietary/vendor/etc/init/init.qti.display_boot.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.display_boot.rc \
     vendor/xiaomi/socrates/proprietary/vendor/etc/init/init.qti.fm.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.fm.rc \
     vendor/xiaomi/socrates/proprietary/vendor/etc/init/init.qti.qcv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.qcv.rc \
-    vendor/xiaomi/socrates/proprietary/vendor/etc/init/init.spuservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.spuservice.rc \
     vendor/xiaomi/socrates/proprietary/vendor/etc/init/init.time_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.time_daemon.rc \
     vendor/xiaomi/socrates/proprietary/vendor/etc/init/init.vendor.ins.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.ins.rc \
-    vendor/xiaomi/socrates/proprietary/vendor/etc/init/init.vendor.qti.spu@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.qti.spu@1.1-service.rc \
     vendor/xiaomi/socrates/proprietary/vendor/etc/init/init.vendor.sensors.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.sensors.rc \
     vendor/xiaomi/socrates/proprietary/vendor/etc/init/init_thermal-engine-v2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init_thermal-engine-v2.rc \
     vendor/xiaomi/socrates/proprietary/vendor/etc/init/ipa_fws.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipa_fws.rc \
@@ -1626,7 +1618,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/socrates/proprietary/vendor/etc/perf/thermalbreakboostconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/thermalbreakboostconfig.xml \
     vendor/xiaomi/socrates/proprietary/vendor/etc/permissions/android.hardware.hardware_keystore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.hardware_keystore.xml \
     vendor/xiaomi/socrates/proprietary/vendor/etc/permissions/android.hardware.light.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.light.xml \
-    vendor/xiaomi/socrates/proprietary/vendor/etc/permissions/android.software.device_id_attestation.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.device_id_attestation.xml \
     vendor/xiaomi/socrates/proprietary/vendor/etc/permissions/noRil/apq_excluded_telephony_features.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/noRil/apq_excluded_telephony_features.xml \
     vendor/xiaomi/socrates/proprietary/vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml \
     vendor/xiaomi/socrates/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
@@ -3544,7 +3535,6 @@ PRODUCT_PACKAGES += \
     secure_element-service \
     android.hardware.gnss-aidl-service-qti \
     android.hardware.graphics.mapper-impl-qti-display \
-    android.hardware.health-service.qti \
     android.hardware.ir-service.example \
     android.hardware.radio.config \
     android.hardware.radio.data \
@@ -3561,7 +3551,6 @@ PRODUCT_PACKAGES += \
     c2_manifest_vendor_audio \
     dataconnection-saidl \
     deviceinfo-saidl \
-    dumpstate-xiaomi \
     fod \
     manifest_android.hardware.drm-service.widevine \
     manifest_identity_credential \

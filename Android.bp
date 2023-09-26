@@ -593,15 +593,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.health-service.qti",
-	owner: "xiaomi",
-	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.health-service.qti.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
 	name: "android.hardware.ir-service.example",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.ir-service.example.xml",
@@ -740,15 +731,6 @@ prebuilt_etc_xml {
 	name: "deviceinfo-saidl",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/deviceinfo-saidl.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "dumpstate-xiaomi",
-	owner: "xiaomi",
-	src: "proprietary/vendor/etc/vintf/manifest/dumpstate-xiaomi.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
